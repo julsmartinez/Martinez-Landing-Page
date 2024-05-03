@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color:azure;
+}
+
+body {
+    background-image: url();
+}
+
+.bg-color {
+    background-color:azure;
+}
+
+:root {
+    --darkyellow: #ffb608;
+    --darkgray: #1f2626;
+    --white: #ffffff;
+    --black: #000000;
+    --red: #bc1823;
+    --poppins: "Poppins";
+    --roboto: "Roboto Condensed";
+    --barlow: "Barlow Semi Condensed";
+}
+
+.navbar-container {
+    background-color: var(--white);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.445);
+
+}
+
+.navbar-logo {
+    height: 70px;
+    position: absolute;
+    left: 90px;
+}
+
+.nav1{
+    display: flex;
+    position: inherit;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+
+#nav1-a {
+    text-decoration: none;
+    font-family: var(--poppins);
+    color: #1f2626;
+    font-weight: 500;
+}
+
+.signin-btn-container {
+    position: absolute;
+    right: 90px;
+}
+
+.signin-btn{
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    border-style: none;
+    border-width: 1.8px;
+    border-color: var(--darkgray);
+    background-color: #ffb608;
+}
+
+.resto-pic-container {
+    display: flex;
+    justify-content: center;
+}   
+
+.resto-pic {
+    height: 480px;
+    width: 980px;
+    background-image: url("pics/resto.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
+}
+
+.blur-bg {
+    height: 380px;
+    width: 600px;
+    background-color: #464b4b40 ;
+    backdrop-filter: blur(5px);
+    position: relative;
+    padding: 50px 20px 50px 20px;
+}
+
+.blur-bg, .welcome .title .message  {
+    font-family: var(--barlow);
+    color: white;
+    text-align: center;
+    margin: 50px 20px 50px 20px;
+}
+
+.title {
+    color: var(--darkyellow);
+}
+
+.message {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.pics {
+    display: flex;
+    position: relative;
+    top: 30px;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.pics img {
+    box-shadow: 0px 10px 20px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.visit {
+    position: absolute;
+    color: var(--white);
+    font-family: var(--barlow);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-container {
+    display: flex;
+    position: absolute;
+    height: 180px;
+    width: 500px;
+    background-color: #1f262690;
+    color: var(--white);
+    font-family: var(--barlow);
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.last-info {
+    text-align: center;
+}
+
+.back-to-top-btn{
+    position: relative;
+    display: flex;
+    top: 155px;
+    float: right;
+    right: 90px;
+}
+
+.back-to-top-btn2{
+    position: relative;
+    display: flex;
+    top: 50px;
+    float: right;
+    right: 183px;
+}
+
+#backtotop {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-family: var(--poppins);
+    color: var(--darkgray);
+    position: relative;
+    font-size: small;
+}
+
+.back-to-top:hover{
+    color: #ffb608;
+}
+
+.footer-container {
+    position: relative;
+    top: 70px;
+}
+
+footer {
+    position: relative;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(10,10,10,1) 20%, rgba(87,87,87,1) 93%);
+}
+
+.icons-container {
+    position: absolute; 
+    top: 30px;
+}
+
+i {
+    color: var(--darkyellow);
+    font-size: 28px;
+    justify-content: center;
+    margin-left: 25px;
+
+}
+
+.icons-link {
+    text-decoration: none;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
+
+.footer-texts {
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    gap: 25px;
+    top: 75px;
+}
+
+.footer-texts p {
+    font-family: var(--poppins);
+    text-decoration: none;
+}
+
+.footer-texts a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 13px;
+}
+
+.footer-texts a:hover {
+    color: var(--darkyellow);
+}
+
+.divider {
+    height: 20px;
+    width: 1px;
+    background-color: lightgray;
+}
+

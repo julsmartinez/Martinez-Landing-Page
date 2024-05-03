@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color:azure;
+}
+
+body {
+    background-image: url("pics/about-us.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --darkyellow: #ffb608;
+    --darkgray: #1f2626;
+    --white: #ffffff;
+    --black: #000000;
+    --red: #bc1823;
+    --poppins: "Poppins";
+    --roboto: "Roboto Condensed";
+    --barlow: "Barlow Semi Condensed";
+}
+
+.navbar-container {
+    background-color: var(--white);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.445);
+
+}
+
+.navbar-logo {
+    height: 70px;
+    position: absolute;
+    left: 90px;
+}
+
+.nav1{
+    display: flex;
+    position: inherit;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+
+#nav1-a {
+    text-decoration: none;
+    font-family: var(--poppins);
+    color: #1f2626;
+    font-weight: 500;
+}
+
+.signin-btn-container {
+    position: absolute;
+    right: 90px;
+}
+
+.signin-btn{
+    height: 35px;
+    width: 120px;
+    border-radius: 8px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    border-style: none;
+    border-width: 1.8px;
+    border-color: var(--darkgray);
+    background-color: #ffb608;
+}
+
+.about-us-title {
+    position: relative;
+    font-family: "Noto Serif";
+    color: black;
+    justify-content: center;
+    text-align: center;
+    top:55px;
+    
+}
+
+.about-us-title p {
+    font-size: 13px;
+}
